@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/weather/weather",
+    "pages/index/index",
+    "pages/zci/zci",
+    "pages/wji/wji",
+    "pages/sensor/sensor",
+    "pages/mapmore/mapmore",
+    "pages/my/my",
+    "pages/maproute/maproute",
+    "pages/mymain/order/order",
+    "pages/mymain/message/message",
+    "pages/mymain/carhistory/carhistory",
+    "pages/mymain/road/road",
+    "pages/mymain/peopleinfo/peopleinfo",
+    "pages/mymain/password/password",
+    "pages/mymain/feedback/feedback"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "运输管理系统",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home2.png"
+      },
+      {
+        "pagePath": "pages/sensor/sensor",
+        "text": "数据",
+        "iconPath": "/images/data.png",
+        "selectedIconPath": "/images/data2.png"
+      },
+      {
+        "pagePath": "pages/maproute/maproute",
+        "text": "导航",
+        "iconPath": "/images/map.png",
+        "selectedIconPath": "/images/map2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/user2.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.19",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "usingComponents": {
+
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+    "van-rate": "@vant/weapp/rate/index"
+  }
+}

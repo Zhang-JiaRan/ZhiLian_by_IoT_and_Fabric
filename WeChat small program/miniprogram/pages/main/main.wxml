@@ -1,0 +1,131 @@
+<van-notice-bar
+  left-icon="volume-o"
+  text="货物运输监控系统上线啦，欢迎广大司机朋友们使用！"
+/>
+
+
+
+<view class="header">
+<view class="one">
+  <text>欢迎使用运输监控系统</text>
+  <text>当前城市：青岛市</text>
+</view>
+<!--注释-->
+<view class="two">
+  <text>2023年4月2日</text>
+</view>
+<!--注释-->
+<view class="three">
+  <text>祝您一路顺风！</text>
+</view>
+<!--注释-->
+
+</view>
+   
+
+
+<view>
+  <swiper class="swiper1" interval="2000" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item>
+      <image class="image1" mode="widthFix" src ="/images/Home.jpeg"></image>
+    </swiper-item>
+    <swiper-item class="cri"> 
+      <image class="image1" mode="widthFix" src ="/images/car1.jpg"></image>
+    </swiper-item>
+      <swiper-item>
+        <image class="image1" mode="widthFix" src ="/images/car2.jpg"></image>
+      </swiper-item>
+  </swiper>
+</view>
+
+
+
+
+<view class="onebody">
+  <!--注释001-->
+  <view class="data" bindtap="main1">
+    <view class="data-logo">
+      <image src="/images/天气.svg"></image>
+    </view>
+    <!--注释-->
+    <view class="data-text">
+      <text class="data-title">天气预报</text>
+    </view>
+    <!--注释-->
+  </view>
+  <!--注释-->
+  <!--注释-->
+  <view class="data" bindtap="main2">
+    <view class="data-logo">
+      <image src="/images/数据.svg"></image>
+    </view>
+    <!--注释-->
+    <view class="data-text">
+      <text class="data-title">实时数据</text>
+    </view>
+    <!--注释-->
+  </view>
+
+</view>
+
+
+<view class="onebody">
+  <!--注释001-->
+  <view class="data" bindtap="main3">
+    <view class="data-logo">
+      <image src="/images/分布.svg"></image>
+    </view>
+    <!--注释-->
+    <view class="data-text">
+      <text class="data-title">车辆分布</text>
+    </view>
+    <!--注释-->
+  </view>
+  <!--注释-->
+  <!--注释-->
+  <view class="data" bindtap="main4">
+    <view class="data-logo">
+      <image src="/images/导航.svg"></image>
+    </view>
+    <!--注释-->
+    <view class="data-text">
+      <text class="data-title">路径导航</text>
+    </view>
+    <!--注释-->
+  </view>
+
+</view>
+
+<view class="onebody">
+  <!--注释001-->
+  <view class="data" bindtap="main3">
+    <view class="data-logo">
+      <image src="/images/区块链.svg"></image>
+    </view>
+    <!--注释-->
+    <view class="data-text">
+      <text class="data-title">信息上链</text>
+    </view>
+    <!--注释-->
+  </view>
+  <!--注释-->
+  <!--注释-->
+  <view class="data" bindtap="main4">
+    <view class="data-logo">
+      <image src="/images/疲劳.svg"></image>
+    </view>
+    <!--注释-->
+    <view class="data-text">
+      <text class="data-title">疲劳检测</text>
+    </view>
+    <!--注释-->
+  </view>
+
+</view>
+
+
+
+
+
+
+

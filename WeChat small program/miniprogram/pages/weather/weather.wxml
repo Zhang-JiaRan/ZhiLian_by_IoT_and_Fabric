@@ -1,0 +1,51 @@
+<view class="header-modular" wx:if="{{now}}">
+	<image class="bg-wave" src="https://codermoyv.gitee.io/coder-moyv/assets/images/wechat/bg_wave.gif"></image>
+	<view class="row">
+		<view class="row location-wrap" bindtap="selectLocation">
+			<image class="icon" src="/images/here.png"></image>
+			<view class="title">{{City}} {{County}}</view>
+		</view>
+ 
+	</view>
+	<view class="row">
+		<view class="tmp">{{now.temp}}°</view>
+		<image class="icon-weather" src="https://codermoyv.gitee.io/coder-moyv/assets/images/wechat/weather_custom/{{now.icon}}.png"></image>
+	</view>
+	<view class="tips-wrap">
+		<view class="tips ">{{now.windDir}} {{now.windScale}}级</view>
+		<view class="tips ">湿度 {{now.humidity}}%</view>
+		<view class="tips ">气压 {{now.pressure}}Pa</view>
+	</view>
+</view>
+ 
+<view class="card-modular " wx:if="{{hourly}}">
+	<view class="title">24小时预报</view>
+	<view class="card-wrap">
+		<block wx:for="{{hourly}}" wx:key="index">
+			<view class="item hourly">
+				<view class="text-gray">{{item.time}}</view>
+				<image class="icon" src="https://codermoyv.gitee.io/coder-moyv/assets/images/wechat/weather_custom/{{item.icon}}.png"></image>
+				<view class="text-primary mb-32">{{item.temp}}°</view>
+				<view>{{item.windDir}}</view>
+				<view class="text-gray">{{item.windScale}}级</view>
+			</view>
+		</block>
+	</view>
+</view>
+ 
+<view class="card-modular" wx:if="{{daily}}">
+	<view class="title">7天预报</view>
+	<view class="card-wrap">
+		<block wx:for="{{daily}}" wx:key="index">
+			<view class="item daily">
+				<view>{{item.dateToString}}</view>
+				<view class="text-gray">{{item.date}}</view>
+				<image class="icon" src="https://codermoyv.gitee.io/coder-moyv/assets/images/wechat/weather_custom/{{item.iconDay}}.png"></image>
+				<view class="text-primary ">{{item.tempMin}}°~{{item.tempMax}}°</view>
+				<image class="icon" src="https://codermoyv.gitee.io/coder-moyv/assets/images/wechat/weather_custom/{{item.iconNight}}.png"></image>
+				<view>{{item.windDirDay}}</view>
+				<view class="text-gray">{{item.windScaleDay}}级</view>
+			</view>
+		</block>
+	</view>
+</view>

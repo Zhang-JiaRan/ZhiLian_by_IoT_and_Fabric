@@ -1,0 +1,16 @@
+<view id="total">
+  <form bindsubmit="create_zhuce">
+    <view id="t1">
+      <text>账号:</text><input type="text" name="username1" id="use" placeholder="请输入您的账号" value="{{username}}"></input>
+    </view>
+    <view id="t2">
+      <text>手机号:</text><input type="text" name="username2" id="pass1" placeholder="请输入您的手机号" value="{{password1}}"></input>
+    </view>
+    <view id="t3">
+      <text>意见建议:</text><input type="text" name="username3" id="pass2" placeholder="请输入您的意见与建议" value="{{username}}"></input>
+    </view>
+
+    <button id="btn1" form-type="submit" bindtap="zci"><text>提交反馈</text></button>
+  </form>
+
+</view>

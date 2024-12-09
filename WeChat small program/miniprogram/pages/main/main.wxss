@@ -1,0 +1,98 @@
+
+
+.header{
+  background-color: #9c16a8;
+  color: white;
+  padding: 15rpx 30rpx;
+  border-radius: 20rpx;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+}
+.one text{
+  font-size: 30rpx;
+  height: 30rpx;
+  padding-bottom: 15rpx;
+}
+.two{
+  display: flex;
+  justify-content: space-between;
+}
+.two text{
+  font-size: 52rpx;
+  padding-bottom: 15rpx;
+}
+.three text{
+  font-size: 24rpx;
+}
+
+
+/*body身体*/
+/**
+定义了一个名为 "onebody" 的类。它设置了一个 40rpx 的顶部外边距，并将 flexbox 显示属性应用于其元素，允许它们沿水平轴排列。"justify-content: space-between" 属性均匀地分配元素之间的空间，使每个元素之间和容器边缘之间有相等的间距。**/
+.onebody{
+  margin-top: 10rpx;
+  display: flex;
+  justify-content:space-around;
+  padding: 10rpx;
+}
+
+/**
+定义了一个名为 "data" 的类。它设置了一个 flexbox 显示属性和一个背景色为 #fff，宽度为 300rpx，高度为 160rpx 的元素。此外，它还应用了一个 border-radius 为 40rpx 的圆角，并在元素周围应用了阴影效果，使其看起来有立体感。其中的 padding 属性应用于元素内部的内容，设置左右各 15rpx 的间距，以腾出更多的可视空间。justify-content: space-around 属性将元素沿着主轴均匀分布，每个元素之间的间距相等，并且在第一个元素和最后一个元素与容器之间留有一些间隔。**/
+.data{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius:30rpx ;
+  box-shadow: #54549c 0 0 10rpx;
+  padding: 0 15rpx;
+}
+/**
+.data-text类具有25rpx的填充，这将在任何具有此类的元素的所有边缘上添加25像素的填充。**/
+.data-text{
+  padding: 15rpx;
+}
+
+/**
+.data-title类将显示设置为flex，并以列方向排列，并使内容围绕主轴对齐。该类似乎用于容纳多个数据的容器元素，因为它会垂直定位它们并均匀分布它们。**/
+.data-title{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  font-size:43rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+/**
+这段 CSS 代码定义了一个名为 .data-logo 的元素的样式。display: flex; 表示将该元素设置为弹性布局，align-items: center; 表示将该元素内部子元素在垂直方向上居中对齐。这段代码通常会用于网页的头部或导航栏等位置，以便使 Logo 图片水平居中显示。**/
+.data-logo{
+  display: flex;
+  align-items: center;
+}
+/**
+这段 CSS 代码是在 .data-logo 元素内部的 img 标签上应用的样式。它设置了该图片的宽度和高度为 107rpx，这里的 rpx 是微信小程序中的一个相对长度单位，表示屏幕宽度的 1/750。因此，这段代码设置了该图片在微信小程序中占据屏幕宽度的 1/7.5。如果您在其他类型的网页或应用程序中使用该代码，需要使用适当的长度单位来替换 rpx。**/
+.data-logo image{
+  width: 80rpx;
+  height: 80rpx;
+}
+/**
+这段 CSS 代码定义了一个名为 .usermotto 的元素的样式。它设置了该元素与其上方元素之间的距离为 200px，因此该元素将在垂直方向上向下移动 200px。请注意，在不同的屏幕尺寸和设备上，200px 可能会产生不同的视觉效果，因此您可能需要根据实际情况进行调整或使用其他类型的长度单位。**/
+.usermotto {
+  margin-top: 200px;
+}
+
+
+.swiper1{
+  width: 100%;
+  /* height: calc(100vw * 327 /  491); */
+  
+}
+.image1{
+  width: 100%;
+}

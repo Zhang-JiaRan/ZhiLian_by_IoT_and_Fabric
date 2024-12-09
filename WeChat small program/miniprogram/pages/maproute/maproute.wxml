@@ -1,0 +1,21 @@
+<view class="tui-map">
+  <map id="map" longitude="{{currentLo}}" latitude="{{currentLa}}" scale="{{scale}}" markers="{{markers}}" polyline="{{polyline}}" include-points="{{includePoints}}" show-location style="width: 100%; height: 100%;">
+    <cover-view class="tui-search-bottom {{show ? '' : 'tui-hide'}}">
+      <cover-view class="page-group">
+        <cover-view class="page-nav-list {{statusType == 'car' ? 'active' : ''}}" data-type="car" bindtap="goTo">驾驶车辆</cover-view>
+        <!-- <cover-view class="page-nav-list {{statusType == 'walk' ? 'active' : ''}}" data-type="walk" bindtap="goTo">步行</cover-view>
+	    <cover-view class="page-nav-list {{statusType == 'ride' ? 'active' : ''}}" data-type="ride" bindtap="goTo">骑行</cover-view> -->
+      </cover-view>
+      <cover-view class="tui-warn">
+        本次导航约{{distance}}米
+      </cover-view>
+      <cover-view class="tui-warn">
+        行驶时间约{{duration}}分钟
+      </cover-view>
+    </cover-view>
+  </map>
+</view>
+<view class="tui-map-search" bindtap="getAddress">
+  <icon size='20' type='search' class='tui-map-search-icon'></icon>
+  <input class="tui-map-input" placeholder="搜索" focus="{{focusStatus}}"></input>
+</view>

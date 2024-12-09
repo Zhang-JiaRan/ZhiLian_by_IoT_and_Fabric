@@ -1,0 +1,145 @@
+/* 用户列表选项样式 */
+page {
+  width: 100%;
+  height: 100%;
+  background:#f0f0f0;
+}
+.parent_catainer{
+  background:#f0f0f0;
+}
+ 
+/* 头部背景图片 */
+.container_head{
+  height: 370rpx;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+ 
+
+ 
+.head_pers_info{
+   height: 200rpx;
+   width: 100%;
+   margin-bottom: 50rpx;
+   justify-content: left;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   position: absolute;
+}
+ 
+.head_pic{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  background-color: #ffffff;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.head_pic_content{
+  position: absolute;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 55rpx;
+  background-color: white;
+}
+ 
+.head_pic{
+  margin-left: 5%;
+}
+ 
+.inf_content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+  align-items: flex-start;
+  justify-content: center;
+   color: #ffffff;
+   padding-bottom: 5rpx;
+}
+ 
+.user_info{
+  text-align: left;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+  color: black;
+}
+ 
+.family_info_ct_phone{
+  text-align: center;
+  justify-content: center;
+  font-size: 34rpx;
+  margin-bottom: 2rpx;
+  color: black;
+}
+ 
+.family_info_ct{
+  text-align: center;
+  justify-content: center;
+  font-size: 34rpx;
+  margin-bottom: 2rpx;
+  width: 500rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+ 
+.userItemListView{
+  background: #fff;
+  padding: 0 0rpx;
+  margin: 24rpx 0;
+}
+ 
+.userItemListView > view{
+  height: 94rpx;
+  line-height: 94rpx;
+  padding-left: 50rpx;
+  border-bottom: 1rpx solid #F1F1F1;
+  position: relative;
+}
+ 
+/* 移除最后一个元素的下边框 */
+.userItemListView > view:last-child{
+  border: none;
+}
+ 
+.my_priview_md{
+  display: flex;
+  align-items: center;
+}
+ 
+.my_priview{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+ 
+.arrow{
+  width: 16rpx;
+  height: 16rpx;
+  border-top: 4rpx solid #999;
+  border-right: 4rpx solid #999;
+  /* 旋转45度 */
+  transform: rotate(45deg);
+  /* 调整位置 */
+  position: absolute;
+  right: 30rpx;
+  top: 38rpx;
+}
+ 
+.userItemListView text{
+  font-size: 30rpx;
+}
+ 
+.last_view{
+   background:#f0f0f0;
+   width: 100%;
+   height:1200rpx;
+}
+ 

@@ -1,0 +1,6 @@
+<view class="" hover-class="none" hover-stop-propagation="false" style="width: 100%; height: 100%;">
+
+<map id="map" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}" scale="14" show-location
+  style="width: 100%; height: 100%;" bindregionchange="bindregionchange" bindtap="bindtapMap"></map>
+
+</view>

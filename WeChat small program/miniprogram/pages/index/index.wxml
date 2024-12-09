@@ -1,0 +1,50 @@
+<!--pages/index/index.wxml-->
+<view  class= "content">
+    <view  class= "zm">
+    <text class="zm1">照明开关</text>
+    <switch class="kai" checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+    </view>
+    <view style="flex:1;width:100%">
+     <label class="xia">
+      <text class="zm1">排气扇开关</text>
+      <switch class="kai" checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+     </label>
+     </view>
+    
+     <view style="flex:1;width:100%">
+
+       <label class="xia">
+       <text class="zm1">当前温度：{{wendu}}°C</text>
+       </label>
+
+     </view>
+     
+     <view style="flex:1;width:100%">
+     <label class="xia">
+      <text class="zm1">当前湿度：{{shidu}} %</text>
+     </label>
+     </view>
+
+     <view style="flex:1;width:100%">
+      <label class="xia">
+      <text class="zm1">当前烟雾：{{yanwu}}%</text>
+      </label>
+    </view>
+
+
+
+
+
+     <button class="login-btn" bindtap="points" >显示温湿度</button>  
+
+    <view wx:if="{{zyq1===0}}">zyq1=0</view>
+    <view wx:elif="{{zyq1===1}}">zyq1=1</view>
+    <view wx:else>zyq1=?</view>
+
+
+  </view>
+
+
+
+
+

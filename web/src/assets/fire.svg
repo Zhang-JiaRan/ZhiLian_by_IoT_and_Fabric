@@ -1,0 +1,31 @@
+<svg xml:space="preserve" height="128" style="font-size: 128px;" width="128" y="0px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" id="图层_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+</style>
+    <title>火焰</title>
+    <g transform="matrix(3.5551734,0,0,3.5551734,54.706771,0)">
+        <g>
+            <linearGradient gradientUnits="userSpaceOnUse" x1="18.7197" y2="-29.3082" gradientTransform="matrix(1 0 0 -1 0 73.9709)" id="SVGID_1_" y1="71.9581" x2="22.5869">
+                <stop style="stop-color:#FDF8E7" offset="0"></stop>
+                <stop style="stop-color:#F09819" offset="1"></stop>
+            </linearGradient>
+            <path d="M15.1,0c0,0-2.4,13.4-5.4,19.6C4.7,30-2,42.8,0.6,53.2S12,71.5,19.5,71.9c7.4,0.4,11-2.1,15.1-5.4
+		c4.4-3.4,6.8-8.6,6.6-14.1c0-6.7-8.1-9.4-8.6-16.7c-0.3-4.7,1.8-8.9-1.1-14.3S15.1,0,15.1,0z" class="st0"></path>
+            <linearGradient gradientUnits="userSpaceOnUse" x1="22.5243" y2="-3.2649" gradientTransform="matrix(1 0 0 -1 0 73.9709)" id="SVGID_2_" y1="55.4803" x2="21.2832">
+                <stop style="stop-color:#FCDD95" offset="0"></stop>
+                <stop style="stop-color:#E96515" offset="1"></stop>
+            </linearGradient>
+            <path d="M15.9,19.6c0,0,2.7,7.2,1.5,12c-2.3,9.1-8.3,15-9.2,20.9s1.6,15.9,7.9,18c6.3,2.1,9.1,2.4,13.9-2.7
+		C34.4,63,37,57,34.2,51.8s-5.1-7.2-4.8-11.2c0.3-3-0.1-10.7-3.8-14.4C22.7,23.5,19.5,21.3,15.9,19.6z" class="st1"></path>
+            <linearGradient gradientUnits="userSpaceOnUse" x1="22.1452" y2="33.3384" gradientTransform="matrix(1 0 0 -1 0 73.9709)" id="SVGID_3_" y1="-23.0865" x2="20.9401">
+                <stop style="stop-color:#004198" offset="0"></stop>
+                <stop style="stop-color:#E46420" offset="0.57"></stop>
+                <stop style="stop-color:#F19C03" offset="1"></stop>
+            </linearGradient>
+            <path d="M19,39.8c0.5,3.1,0.2,6.3-1,9.2c-2,5.4-5.2,10.2-5,14.7c0.2,4.8,4.3,8.5,9.1,8.3c0,0,0,0,0.1,0
+		c4.7,0,7.7-3.8,7.7-11.2C29.8,50.6,19,39.8,19,39.8z" class="st2"></path>
+        </g>
+    </g>
+</svg>

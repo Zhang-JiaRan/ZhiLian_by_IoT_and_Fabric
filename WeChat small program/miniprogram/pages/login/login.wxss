@@ -1,0 +1,75 @@
+/* miniprogram/pages/login/login.wxss */
+
+page{
+  height: 100%;    /* 使用page的height可以使页面占全屏 */
+  background-color: #fafafa;
+ }
+.login-container{
+  padding: 0% 10%;
+  height: 100%;
+}
+
+
+
+.title{
+  font-size: large;
+  text-align: center;
+  padding-top: 0%;
+  font-weight: bold;
+}
+.login-box{
+  margin-top: 10rpx;
+  padding: 10% 5%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px #888888;
+}
+.login-box>input{
+  margin: 5% 0 8% 0;
+  border-bottom: 1rpx solid lightgray;
+}
+.login-btn{
+  width: 100%!important;
+  background-color: #2f6afd;
+  color: white;
+  font-weight: normal;
+}
+
+#btn2{
+
+  width: 40%!important;
+  position: relative;
+  top:77rpx;
+  right:150rpx;
+  color: white;
+  font-weight: normal;
+  background-color: rgb(245, 245, 245);
+}
+#btn2::after{
+  border: none;
+}
+#btn2 text{
+  color:black;
+  font-size: 39rpx;
+}
+#btn3{
+  width: 50%!important;
+  position: relative;
+  top:-20rpx;
+  left:140rpx;
+  color: white;
+  font-weight: normal;
+  background-color: rgb(245, 245, 245);
+}
+#btn3::after{
+  border: none;
+}
+#btn3 text{
+  color:black;
+  font-size: 39rpx;
+}
+
+
+ 
+
+ 

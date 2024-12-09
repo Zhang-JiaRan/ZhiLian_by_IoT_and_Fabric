@@ -1,0 +1,18 @@
+<view id="total">
+  <form bindsubmit="create_zhuce">
+    <view id="t1">
+      <text>常用路线1:</text><input type="text" name="username1" id="use" placeholder="青岛-临沂" value="{{username}}"></input>
+    </view>
+    <view id="t2">
+      <text>常用路线2:</text><input type="text" name="username2" id="pass1" placeholder="临沂-青岛" value="{{password1}}"></input>
+    </view>
+    <view id="t3">
+      <text>常用路线3:</text><input type="text" name="username3" id="pass2" placeholder="青岛-北京" value="{{username}}"></input>
+    </view>
+    <view id="t4">
+      <text>常用路线4:</text><input type="text" name="username4" id="pass3" placeholder="北京-青岛" value="{{password1}}"></input>
+    </view>
+    <button id="btn1" form-type="submit" bindtap="zci"><text>查看更多常用路线</text></button>
+  </form>
+
+</view>

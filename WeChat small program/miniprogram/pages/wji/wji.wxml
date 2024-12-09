@@ -1,0 +1,17 @@
+<!--miniprogram/pages/wji/wji.wxml-->
+
+<view class="section">
+  <view id="t1">
+  <text>手机号码:</text><input type="text" name="username" id="use" placeholder="手机号码" value="{{username}}"></input>
+   </view>
+  <text wx:if='{{send}}' class='sendMsg' bindtap='sendMsg'>发送</text>
+  <text wx:if="{{alreadySend}}" class="sendMsg" bindtap="sendMsg">{{second+"s"}}</text>
+
+</view>
+
+<view class="section">
+  <text>短信验证</text>
+  <input placeholder="短信验证码" type="number"  id="use"maxlength="6" bindinput="addCode" />
+</view>
+
+<button id="mma" type="{{buttonType}}" disabled="{{disabled}}" bindtap="onSubmit">确定</button>

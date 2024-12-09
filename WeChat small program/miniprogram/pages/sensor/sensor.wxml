@@ -1,0 +1,148 @@
+<view class="zong">
+  <!--注释-->
+  <!-- 头-->
+  <view class="header">
+
+    <view class="one">
+      <text>空气质量：良好</text>
+      <text>青岛市</text>
+    </view>
+    <!--注释-->
+    <view class="two">
+      <text>55</text>
+      <text>晴天</text>
+    </view>
+    <!--注释-->
+    <view class="three">
+      <text>空气质量良好，可以出行</text>
+    </view>
+    <!--注释-->
+
+  </view>
+
+
+  <!-- 身体-->
+  <view class="body">
+    <view class="onebody">
+      <!--注释001-->
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/温度.svg"></image>
+        </view>
+        <!--注释-->
+        <view class="data-text">
+          <text class="data-title">温度</text>
+          <text class="data-value">{{temp}}℃</text>
+        </view>
+        <!--注释-->
+      </view>
+      <!--注释-->
+      <!--注释-->
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/湿度.svg"></image>
+        </view>
+        <!--注释-->
+        <view class="data-text">
+          <text class="data-title">湿度</text>
+          <text class="data-value">{{humi}}％</text>
+        </view>
+        <!--注释-->
+      </view>
+    </view>
+
+
+    <view class="onebody">
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/烟雾.svg"></image>
+        </view>
+        <view class="data-text">
+          <text class="data-title">烟雾</text>
+          <text class="data-value">{{dagang}}%</text>
+        </view>
+      </view>
+
+      <!-- <view class="data">
+        <view class="data-logo">
+          <image src="/images/手电筒.png"></image>
+        </view>
+        <view class="data-text">
+          <text class="data-title">开关灯</text>
+          <switch bindchange="switchChange"></switch>
+        </view>
+      </view> -->
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/火焰.svg"></image>
+        </view>
+        <view class="data-text">
+          <text class="data-title">火焰</text>
+          <text class="data-value">无</text>
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <view class="onebody">
+      <!-- <view class="data">
+        <view class="data-logo">
+          <image src="/images/报警.png"></image>
+        </view>
+        <view class="data-text">
+          <text class="data-title">报警器</text>
+          <switch></switch>
+        </view>
+      </view> -->
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/检查车辆.svg"></image>
+        </view>
+        <view class="data-text">
+          <text class="data-title">检验车辆</text>
+          <text class="data-value">是</text>
+        </view>
+      </view>
+
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/人车合一.svg"></image>
+        </view>
+        <view class="data-text">
+          <text class="data-title">人+车+货</text>
+          <text class="data-value">是</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="onebody">
+      <!--注释001-->
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/疲劳.svg"></image>
+        </view>
+        <!--注释-->
+        <view class="data-text">
+          <text class="data-title">疲劳次数</text>
+          <text class="data-value">{{temp}}</text>
+        </view>
+        <!--注释-->
+      </view>
+      <!--注释-->
+      <!--注释-->
+      <view class="data">
+        <view class="data-logo">
+          <image src="/images/健康.svg"></image>
+        </view>
+        <!--注释-->
+        <view class="data-text">
+          <text class="data-title">健康监测</text>
+          <text class="data-value">是</text>
+        </view>
+        <!--注释-->
+      </view>
+    </view>
+  </view>
+</view>

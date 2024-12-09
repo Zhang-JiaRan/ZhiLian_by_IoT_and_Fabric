@@ -1,0 +1,97 @@
+/* miniprogram/pages/zci/zci.wxss */
+#total{
+  width:100%;
+  height:1300rpx;
+  background-color: rgb(245,245,245);
+}
+#t1{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:70rpx;
+}
+#t2{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:80rpx;
+}
+#t3{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:90rpx;
+}
+#t4{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:100rpx;
+}
+#t1 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#use{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t2 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#pass1{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t3 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#pass2{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 320rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t4 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#pass3{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 320rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#btn1{
+  position: relative;
+  top:350rpx;
+  background-color:rgb(51, 204, 170);
+  width:600rpx;
+  border-radius: 50rpx;
+}
+#btn1 text{
+  color:white;
+  font-size: 39rpx;
+}

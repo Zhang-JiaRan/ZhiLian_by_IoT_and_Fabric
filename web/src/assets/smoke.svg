@@ -1,0 +1,15 @@
+<svg enable-background="new 0 0 1024 1024" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="128" height="128" x="0px" version="1.1" id="图层_1" viewBox="0 0 256 256" y="0px" style="font-size: 128px;">
+    <g transform="matrix(0.38553772,0,0,0.38553772,-73.677029,-51.160281)">
+        <g>
+            <rect width="18.163" height="73.231" x="830.617" fill="#2E2F30" y="676.873"></rect>
+            <rect stroke="#4D4D4D" stroke-width="11" width="629.502" height="100.99" x="196.602" fill="#F3F4F5" y="662.994" stroke-miterlimit="10"></rect>
+            <rect stroke="#4D4D4D" stroke-width="11" width="174.824" height="100.99" x="196.602" fill="#E2BC78" y="662.994" stroke-miterlimit="10"></rect>
+            <rect width="72.713" height="91.903" x="753.391" fill="#666768" y="667.856"></rect>
+            <path d="M345.077,286.902
+		c0,0-33.158-115.805,62.722-118.322c0,0,95.88-27.692,128.607,80.56c0,0-15.105,105.735,85.595,95.665
+		c0,0,85.595,40.28-27.693,93.147c0,0,151.747,2.518,195.455,22.658c0,0,135.035,57.902,0,98.182c0,0,26.085,52.867-46.922,60.42
+		c0,0-103.217,22.658-83.077-65.455c0,0-78.042,37.763-80.56-60.42c0,0-146.015,37.763-128.392-45.315
+		C450.812,448.022,199.062,357.392,345.077,286.902z" stroke="#4D4D4D" stroke-width="11" fill="#C6CBCE" stroke-miterlimit="10"></path>
+        </g>
+    </g>
+</svg>

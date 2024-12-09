@@ -1,0 +1,73 @@
+<!-- 用户列表选项 -->
+<scroll-view class='scbg' scroll-y='true'>
+  <view class="parent_catainer">
+    <!-- 头部 -->
+    <!-- style="background-image: url('/images/persons/mind_head_bg.jpg');" -->
+    <view class="container_head">
+      <image class="head_img"></image>
+      <view class="head_pers_info" bindtap="head_pers_info">
+        <view class="head_pic">
+          <image class="head_pic_content" mode="aspectFit" src="/images/头像.svg"></image>
+        </view>
+        <view class="inf_content">
+          <text class="user_info">张永乾</text>
+          <text class="family_info_ct_phone">联系电话：13181245016</text>
+          <text class="family_info_ct"></text>
+        </view>
+      </view>
+    </view>
+
+    <view class="userItemListView">
+      <!-- <view class="my_priview_md" bindtap="myappointpage">
+        <image class="my_priview" src="/images/here.png"></image>
+        <text>我的预约</text>
+        <view class="arrow"></view>
+      </view> -->
+      <view class="my_priview_md" bindtap="order">
+        <image class="my_priview" src="/images/订单状态.svg"></image>
+        <text>订单状态</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="my_priview_md" bindtap="message">
+        <image class="my_priview" src="/images/我的消息.svg"></image>
+        <text>我的消息</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="my_priview_md" bindtap="carhistory">
+        <image class="my_priview" src="/images/出车记录.svg"></image>
+        <text>出车记录</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="my_priview_md" bindtap="road">
+        <image class="my_priview" src="/images/常用路线.svg"></image>
+        <text>常用路线</text>
+        <view class="arrow"></view>
+      </view>
+    </view>
+
+    <view class="userItemListView">
+      <view class="my_priview_md" bindtap="peopleinfo">
+        <image class="my_priview" src="/images/个人资料.svg"></image>
+        <text>个人资料</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="my_priview_md" bindtap="password">
+        <image class="my_priview" src="/images/修改密码.svg"></image>
+        <text>修改密码</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="my_priview_md" bindtap="feedback">
+        <image class="my_priview" src="/images/联系我们.svg"></image>
+        <text>反馈建议</text>
+        <view class="arrow"></view>
+      </view>
+      <view class="my_priview_md" bindtap="logout">
+        <image class="my_priview" src="/images/退出登录.svg"></image>
+        <text>退出登录</text>
+        <view class="arrow"></view>
+      </view>
+    </view>
+
+    <view class="last_view"></view>
+  </view>
+</scroll-view>

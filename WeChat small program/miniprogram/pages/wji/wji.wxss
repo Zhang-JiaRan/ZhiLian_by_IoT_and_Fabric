@@ -1,0 +1,21 @@
+/* miniprogram/pages/wji/wji.wxss */
+#t1 text{
+  position: relative;
+  left:0rpx;
+  top:40rpx;
+  color: rgb(143, 143, 143);
+  }
+  #use{
+    width:400rpx;
+    height:80rpx;
+    margin-left: 200rpx;
+    position: relative;
+    bottom: 25rpx;
+  }
+  #mma{
+    position: relative;
+    top:100rpx;
+    background-color:rgb(51, 204, 170);
+    width:300rpx;
+    border-radius: 50rpx;
+  }

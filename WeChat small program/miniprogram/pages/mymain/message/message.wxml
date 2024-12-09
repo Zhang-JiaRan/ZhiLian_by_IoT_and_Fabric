@@ -1,0 +1,16 @@
+<view id="total">
+  <form bindsubmit="create_zhuce">
+    <view id="t1">
+      <text>消息1:</text><input type="text" name="username1" id="use" placeholder="你好！" value="{{username}}"></input>
+    </view>
+    <view id="t2">
+      <text>消息2:</text><input type="text" name="username2" id="pass1" placeholder="在哪的？" value="{{password1}}"></input>
+    </view>
+    <view id="t3">
+      <text>消息3:</text><input type="text" name="username3" id="pass2" placeholder="在干吗？" value="{{username}}"></input>
+    </view>
+
+    <button id="btn1" form-type="submit" bindtap="zci"><text>查看更多消息</text></button>
+  </form>
+
+</view>

@@ -1,0 +1,72 @@
+.tui-map-search{
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+  box-sizing: border-box;
+  padding: 5rpx 10px;
+  background-color: #fff;
+  line-height: 70rpx;
+}
+.tui-map-input{
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  margin-left: 25px;
+}
+.tui-map-search-icon{
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 10px;
+}
+.tui-map{
+  width: 100%;
+  height: calc(100% - 80rpx);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.tui-map-direction{
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  right: 10px;
+  bottom: 80px;
+  z-index: 100000;
+}
+ 
+.page-group{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: #fff;
+}
+.page-nav-list{
+  padding:20rpx 0 ;
+  font-size: 50rpx;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  color: #222;
+}
+.page-nav-list.active{color:rgb(0, 0, 0);}
+.tui-warn{
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 50rpx;
+}
+.tui-search-bottom{
+  height: 150px;
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+

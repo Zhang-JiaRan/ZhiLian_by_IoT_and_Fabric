@@ -1,0 +1,28 @@
+<view class="login-container">
+ <view class="title">货物运输监控平台</view>
+
+
+<view><image src="/images/carlogo.svg"></image></view>
+
+
+
+
+ <view class="login-box">
+   <label>账号</label>
+   <input type="text" name="username" id="use" placeholder="请输入账号"/>
+   <label>密码</label>
+   <input type="password" name="password" id="pass1"placeholder="请输入密码"/>
+   <button class="login-btn" bindtap="login" >立刻登录</button>
+   <!-- <button class="newpage" bindtap="btn4" >查看数据</button> -->
+   <button bindtap="goto_zhuce" id="btn2"><text>注册</text></button>
+   <button bindtap="goto_update" id="btn3"><text>忘记密码</text></button>
+ </view>
+
+<!-- <view>{{info}}</view>
+<view>{{randomNum>=5?'随机数字大于等于5':'随机数字小于5'}}</view> -->
+
+
+
+
+
+</view>
